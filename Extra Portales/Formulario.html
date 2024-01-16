@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="DiseñoF.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="formulario">
+    <form action="Formulario.php" method="post">
+        <table>
+            <tr>
+                <td> <input type="text" placeholder="Nombre" name="nombre" required></td>
+            </tr>
+            <tr>
+                <td> <input type="text" placeholder="Codigo postal" name="postal" required></td>
+            </tr>
+            <tr>
+                <td> <input type="text" placeholder="Calle" name="calle" required></td>
+            </tr>
+            <tr>
+                <td> <input type="text" placeholder="Numero exterior" name="numero" required></td>
+            </tr>
+            <tr>
+                <td><input type="email" placeholder="Correo Electronico" name="email" required></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="phone" placeholder="Numero Celular" name="telefono" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="cantidad" placeholder="Cantidad a comprar" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Enviar" name="Enviar">
+                </td>
+            </tr>
+        </table>
+    </form>
+    </div>
+</body>
+</html>
